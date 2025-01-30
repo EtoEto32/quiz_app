@@ -86,7 +86,10 @@ function showFinalResult() {
 // 問題を更新する関数
 nextBtn.addEventListener("click", () => {
   // クイズをリスタートする
-  if (currentQuestion <= quizData.length) {
+  if (currentQuestion == quizData.length) {
+    currentQuestion=0;
+    score=0;
+  }else{
     currentQuestion++;
   }
   loadQuiz();
