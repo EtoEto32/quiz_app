@@ -6,7 +6,7 @@
 ```
 npm install live-server --save-dev
 ```
-package.jsonを開いて、scriptsプロパティに以下を追加してください。
+package.jsonを開いて、scriptsプロパティに以下を追加(既にあるなら編集)してください。
 ```
 "scripts":{
   "start":"live-server"
